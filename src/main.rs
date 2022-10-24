@@ -2,6 +2,7 @@ use rand::Rng;
 use std::io;
 use serde::{Deserialize, Serialize};
 use serde_json::Result;
+mod chat;
 
 #[derive(Serialize, Deserialize)]
 struct Person {
