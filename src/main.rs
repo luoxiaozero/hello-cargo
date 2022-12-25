@@ -3,6 +3,7 @@ use std::io;
 use serde::{Deserialize, Serialize};
 use serde_json::Result;
 mod chat;
+mod deref;
 
 #[derive(Serialize, Deserialize)]
 struct Person {
